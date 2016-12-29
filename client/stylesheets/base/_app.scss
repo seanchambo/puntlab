@@ -1,0 +1,36 @@
+html {
+  min-height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  background: #f5f5f5;
+}
+
+body {
+  color: #797979 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.content {
+  transition: margin 0.25s ease-in-out;
+  background: #f5f5f5;
+}
+
+.content-public {
+  background: #f5f5f5;
+}
+
+.puntlab-icon {
+  margin-right: 5px;
+}
+
+#user-dropdown + ul > li > a {
+  color: #b4b6bd;
+}
+
+#user-dropdown + ul > li:hover > a {
+  color: #333;
+}
+
+.dropdown-menu-justify {
+  right: 0;
+}

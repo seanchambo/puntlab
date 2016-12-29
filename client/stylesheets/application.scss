@@ -1,9 +1,18 @@
 @import "base/extends";
 @import "base/animations";
 @import "base/forms";
+@import "base/app";
+@import "base/page";
+@import "base/banner";
 
 @import "module/loading";
 @import "module/login";
 @import "module/signup";
+@import "module/sidebar";
+@import "module/navbar";
+@import "module/bet";
+@import "module/settings";
+@import "module/datepicker";
 
 @import "state/navbar";
+@import "state/sidebar";

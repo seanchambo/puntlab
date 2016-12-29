@@ -1,0 +1,113 @@
+.content {
+    margin-left: 250px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 250px;
+}
+
+.sidebar.collapsed {
+    width: 75px;
+}
+
+.sidebar.collapsed + .content {
+    margin-left: 75px;
+}
+
+.sidebar.collapsed .logo .logo-text {
+    display: none;
+}
+
+.sidebar.collapsed .logo .logo-image {
+    margin-right: 0px;
+}
+
+.sidebar .sidebar-nav > ul > div > li > a {
+    width: 250px;
+}
+
+.sidebar.collapsed .sidebar-nav > ul > div > li > a > .sidebar-list-label {
+    display: none;
+}
+
+.sidebar.collapsed .sidebar-nav > ul > div > li > ul {
+    display: none;
+}
+
+.sidebar.collapsed .sidebar-nav > ul > div > li:hover > ul,
+.sidebar.collapsed .sidebar-nav > ul > div > li.active:hover > ul {
+    display: block !important;
+}
+
+.sidebar.collapsed .sidebar-nav ul li ul {
+    position: absolute;
+    z-index: 3;
+    left: 100%;
+    top: 0px;
+    background: #272c35;
+    box-shadow: none;
+    padding: 10px 0px;
+    min-width: 200px;
+}
+
+
+@media (max-width: 768px) { 
+    .content {
+        margin-left: 75px;
+    }
+    
+    .sidebar {
+        width: 75px;
+    }
+    
+    .sidebar.collapsed {
+        width: 0px;
+    }
+    
+    .sidebar.collapsed + .content {
+        margin-left: 0px;
+    }
+    
+    .sidebar .logo .logo-image {
+        margin-right: 0px;
+    }
+    
+    .sidebar .logo .logo-text {
+        display: none;
+    }
+    
+    .sidebar.collapsed .logo .logo-image {
+        display: none;
+    }
+    
+    .sidebar.collapsed .sidebar-nav > ul > div > li > a > .sidebar-list-icon {
+        display: none;
+    }
+    
+    .sidebar.collapsed .sidebar-nav > ul > div > li > a  {
+        border: none;
+    }
+    
+    .sidebar-nav > ul > div > li > a > .sidebar-list-label {
+        display: none;
+    }
+}
+
+.sidebar-nav > ul > div > li:hover > a, 
+.sidebar-nav > ul > div > li.active:hover > a, 
+.sidebar-nav > ul > div > li.active > a {
+    color: #fff;
+    background: #272c35;
+    border-left: 3px solid #2bc073;
+}
+
+.sidebar-nav > ul > div > li > ul > li:hover > a, 
+.sidebar-nav > ul > div > li > ul > li.active:hover > a, 
+.sidebar-nav > ul > div > li > ul > li.active > a {
+    color: #fff;
+    background: #272c35;
+}

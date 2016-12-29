@@ -1,0 +1,30 @@
+.puntlab-banner {
+  padding: 1.5rem;
+}
+
+.puntlab-banner-wrapper {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.puntlab-banner-icon {
+  font-size: 6rem !important;
+  font-weight: bold !important;
+}
+
+.puntlab-banner-content {
+  text-align: right;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+.puntlab-banner-header {
+  text-align: right;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-family: Roboto, sans-serif;
+}
