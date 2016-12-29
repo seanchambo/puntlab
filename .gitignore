@@ -3,5 +3,4 @@ settings-development.json
 settings-production.json
 npm-debug.log
 .deploy
-
-node_modules
+.meteor/local
